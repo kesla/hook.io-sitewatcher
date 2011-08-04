@@ -4,11 +4,11 @@
 
 ## Installation
 
-     npm install hook.io-pinger -g
+     npm install hook.io-sitewatcher -g
 
 ## Usage
 
-     hookio-pinger
+     hookio-sitewatcher
 
 ## Hook Events Names
 
