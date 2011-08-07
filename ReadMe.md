@@ -2,6 +2,10 @@
 
 *a Hook for monitoring when sites changes.*
 
+## Inspiration
+
+A lot of inspiration to this hook comes from [pinger](https://github.com/hookio/pinger)
+
 ## Installation
 
      npm install hook.io-sitewatcher -g
@@ -12,21 +16,18 @@
 
 ## Hook Events Names
 
-**siteChanged** *event emitted when a site has changed*
+**siteChanged** *event emitted when a site has changed.*
 
 ## Hook config.json settings
+
 ``` js
 
-{ 
+{
   "sites": [
-   {
-     "name": "Google",
-     "url": "http://google.com/"
-   },
-   {
-     "name": "Github",
-     "url": "http://www.github.com/"
-   }
+    {
+      "name": "Node blog",
+      "url": "http://blog.nodejs.org/"
+    }
   ]
 }
 
@@ -34,5 +35,4 @@
 
 ## Required Hooks
 
-  - [cron](http://github.com/hookio/cron)
   - [request](http://github.com/hookio/request)

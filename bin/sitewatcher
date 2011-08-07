@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var SitewatcherHook = require('../lib/sitewatcher').SitewatcherHook
+
+var sitewatcher = new SitewatcherHook({
+  name: "sitewatcher-hook",
+  debug: true
+});
+
+sitewatcher.start();

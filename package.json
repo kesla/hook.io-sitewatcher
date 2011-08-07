@@ -1,0 +1,22 @@
+{
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "name": "hook.io-sitewatcher",
+  "description": "a Hook for monitoring if a site has changed or not.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kesla/hook.io-sitewatcher.git"
+  },
+  "bin": {
+    "hookio-sitewatcher": "./bin/sitewatcher"
+  },
+  "main": "./lib/sitewatcher",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io" : "0.6.x",
+    "hook.io-request" : "0.3.x"
+  },
+  "devDependencies": {}
+}
